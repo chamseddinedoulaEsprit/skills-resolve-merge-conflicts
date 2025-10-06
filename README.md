@@ -51,11 +51,27 @@ This can be intimidating, but have no fear, Git is smart when it comes to mergin
 
 ---
 
-## Step 3: Comprendre les différents types de conflits
+## Step 3: Create your own conflict
 
-_Félicitations! Vous avez résolu votre premier conflit de merge! :tada:_
+_Good job! You've solved a merge conflict! :tada:_
 
-Maintenant que vous maîtrisez les bases, explorons les différents types de conflits que vous pourriez rencontrer:
+Resolving a conflict doesn't automatically merge the pull request in GitHub. Instead, it stores the resolution of the conflict in a merge commit and allows you and your team to keep working. To resolve a conflict, GitHub performs what is known as a _reverse merge_. This means that the changes from the `main` branch were merged into your `my-resume` branch. With a reverse merge, only the `my-resume` branch is updated. This allows you to test the resolved changes on your branch before you merge it into `main`.
+
+Now, let's get a little evil. (It's for educational purposes!)
+
+### :keyboard: Activity: Create your own conflict
+
+We went ahead and added a new file called `references.md` and pushed that change to `main`, without updating your `my-resume` branch.
+
+1. Browse to the `my-resume` branch.
+2. Click the `Add file` dropdown menu and then on `Create new file`.
+3. Create a file named `references.md`.
+4. Enter some text that conflicts with what we added for `references.md` in the `main` branch.
+5. Scroll to the bottom of the page and enter a commit message for your change.
+6. Click the **Commit new file** button, making sure the "Commit directly to the `my-resume` branch" option is selected.
+7. Wait about 20 seconds then refresh this page. [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+
+---
 
 ### Types de conflits courants
 
@@ -63,13 +79,6 @@ Maintenant que vous maîtrisez les bases, explorons les différents types de con
 2. **Conflits de suppression/modification** - Un côté supprime, l'autre modifie.
 3. **Conflits de renommage** - Fichiers renommés différemment.
 4. **Conflits binaires** - Images ou autres fichiers non-texte.
-
-### :keyboard: Activity: Pratiquer avec des conflits avancés
-
-1. Créez une nouvelle branche `advanced-conflict`.
-2. Modifiez plusieurs sections du fichier `resume.md`.
-3. Simultanément, modifiez les mêmes sections depuis `main`.
-4. Tentez de merger et résolvez les conflits multiples.
 
 ### Bonnes pratiques pour éviter les conflits
 
