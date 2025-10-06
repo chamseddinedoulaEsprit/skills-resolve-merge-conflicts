@@ -16,8 +16,8 @@ Provide world class support to customers on the GitHub platform
 
 ### Education
 
-Developed and maintained various conference talks, online training, and in-person trainings covering various topics including Git, GitHub, and Open Source.
+Conception et animation de conférences, de formations en ligne et de sessions en présentiel couvrant Git, GitHub et l'Open Source. Création de supports pédagogiques, d'ateliers pratiques et d'évaluations; adaptation des contenus aux publics débutants et avancés; mise à jour continue des modules pour refléter les meilleures pratiques.
 
 ### Leadership
 
-Managed multiple asynchronous teams in the development, maintenance, and release of various web applications and websites.
+Coordination et leadership d'équipes asynchrones pluridisciplinaires pour le développement, la maintenance et les déploiements d'applications web. Encadrement technique, mentorat, définition des processus de revue de code et automatisation des pipelines CI/CD pour améliorer la qualité et la cadence des livraisons.
